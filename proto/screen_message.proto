@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package pb;
+option go_package = "protobuf-demo/pb";
+
+message Screen {
+  message Resolution {
+    uint32 width = 1;
+    uint32 height = 2;
+  }
+
+  enum Panel {
+    IPS = 0;
+    LED = 1;
+  }
+
+  float size_inch = 1;
+  Resolution resolution = 2;
+  Panel panel = 3;
+  bool multi_touch = 4;
+
+}

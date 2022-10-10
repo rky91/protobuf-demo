@@ -1,0 +1,59 @@
+{
+ "id":  "d0a498b3-0ab9-4505-bcbd-9bd2744f64aa",
+ "name":  "L1",
+ "brand":  "LENOVO",
+ "cpu":  {
+  "brand":  "AMD",
+  "name":  "Rezen 7",
+  "number_cores":  10,
+  "number_threads":  18,
+  "min_ghz":  2.6090206710467685,
+  "max_ghz":  3.0583842343006094
+ },
+ "memory":  {
+  "value":  "3",
+  "unit":  "GB"
+ },
+ "GPUs":  [
+  {
+   "brand":  "AMD",
+   "name":  "A 7",
+   "min_ghz":  1.302536085533466,
+   "max_ghz":  3.7287964261159554,
+   "memory":  {
+    "value":  "11",
+    "unit":  "GB"
+   }
+  }
+ ],
+ "storages":  [
+  {
+   "driver":  "HDD",
+   "memory":  {
+    "value":  "1481",
+    "unit":  "GB"
+   }
+  },
+  {
+   "driver":  "SSD",
+   "memory":  {
+    "value":  "1632",
+    "unit":  "GB"
+   }
+  }
+ ],
+ "screen":  {
+  "size_inch":  16.11074,
+  "resolution":  {
+   "width":  6654,
+   "height":  3743
+  }
+ },
+ "keyboard":  {
+  "layout":  "QWERTY"
+ },
+ "weight_kg":  2.7496266371910374,
+ "price_usd":  232.79873038037817,
+ "release_year":  2014,
+ "updated_at":  "2022-09-21T09:57:01.702664Z"
+}
